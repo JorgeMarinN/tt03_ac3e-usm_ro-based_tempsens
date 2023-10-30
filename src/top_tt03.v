@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top_tt03(input [7:0] io_in, output [7:0] io_out);
+module tt_um_top_tt03(input [7:0] io_in, output [7:0] io_out);
 
 wire reset, rx, rx_ready, tx, tx_start, tx_busy;
 wire sum_ready, sum_en;
